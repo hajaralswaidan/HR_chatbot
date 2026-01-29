@@ -99,7 +99,7 @@ div[data-testid="stButton"] > button {
   font-size: 16px;
 }
 
-/* User bubble */
+/* User bubble*/
 .msg.user {
   background: #dedee2;
   border: 1px solid #cfcfd6;
