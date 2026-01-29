@@ -3,5 +3,10 @@ base="light"
 primaryColor="#3d3c3d"              
 backgroundColor="#fafafa"           
 secondaryBackgroundColor="#e3e3e4"  
+<<<<<<< HEAD
 textColor="#0F172A"                 
 font="sans serif"    
+=======
+textColor="#0F172A"
+font="sans serif"
+>>>>>>> bf0cb080a45d66e1b2b95586e5f1e6dc3b4a4ea8
