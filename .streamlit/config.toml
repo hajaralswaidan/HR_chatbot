@@ -1,7 +1,7 @@
 [theme]
 base="light"
-primaryColor="#3d3c3d"              # أخضر ChatGPT
-backgroundColor="#fafafa"           # الخلفية الرمادي الفاتح
-secondaryBackgroundColor="#e3e3e4"  # الكروت البيضاء
-textColor="#0F172A"                 # نص داكن ناعم
+primaryColor="#3d3c3d"              
+backgroundColor="#fafafa"           
+secondaryBackgroundColor="#e3e3e4"  
+textColor="#0F172A"
 font="sans serif"
