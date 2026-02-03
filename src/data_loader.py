@@ -1,4 +1,3 @@
-# src/data_loader.py
 import pandas as pd
 from pathlib import Path
 
@@ -29,7 +28,7 @@ def load_hr_data() -> pd.DataFrame:
     if to_drop:
         df = df.drop(columns=to_drop)
 
-    # Add numeric flag for analysis 
+    # Add numeric flag for analysis
     if "Attrition" in df.columns and "AttritionFlag" not in df.columns:
         df["AttritionFlag"] = df["Attrition"].map({"Yes": 1, "No": 0})
 
