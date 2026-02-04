@@ -1,0 +1,4 @@
+Sentiment Analysis Summary (sample)
+- Sample size: 200
+- Label counts: {'NEGATIVE': 190, 'POSITIVE': 10}
+- Average confidence score: 0.870

@@ -1,34 +1,37 @@
 import pandas as pd
 from pathlib import Path
 
-# FIXED dataset path (ONLY this dataset is allowed)
+# ONLY official HR dataset
 DATASET_PATH = Path("data") / "WA_Fn-UseC_-HR-Employee-Attrition.csv"
 
-# useless columns in this dataset
+# Columns with no analytical value
 DROP_COLS = ["EmployeeCount", "Over18", "StandardHours"]
 
 
 def load_hr_data() -> pd.DataFrame:
     """
-    Load ONLY the official HR dataset from /data.
-    Any other dataset is not allowed by design.
+    Load the official HR dataset for INITIAL database setup only.
+
+    NOTE:
+    - Pandas is used here ONLY for loading/cleaning the dataset.
+    - The chatbot answering pipeline uses SQLite + SQL only (no Pandas).
 
     Returns:
-        pd.DataFrame: cleaned dataframe
+        pd.DataFrame: cleaned HR dataset
     """
     if not DATASET_PATH.exists():
         raise FileNotFoundError(
-            f"HR dataset not found. Expected at: {DATASET_PATH.resolve()}"
+            f"HR dataset not found at: {DATASET_PATH.resolve()}"
         )
 
     df = pd.read_csv(DATASET_PATH)
 
-    # Drop constant/useless columns if present
+    # Drop non-informative columns
     to_drop = [c for c in DROP_COLS if c in df.columns]
     if to_drop:
         df = df.drop(columns=to_drop)
 
-    # Add numeric flag for analysis
+    # Add numeric attrition flag (for SQL usage)
     if "Attrition" in df.columns and "AttritionFlag" not in df.columns:
         df["AttritionFlag"] = df["Attrition"].map({"Yes": 1, "No": 0})
 

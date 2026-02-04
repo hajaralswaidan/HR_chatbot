@@ -1,0 +1,201 @@
+EmployeeNumber,JobRole,Department,OverTime,WorkLifeBalance,sentiment_label,sentiment_score,text_summary
+1469,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+250,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1714,Human Resources,Human Resources,No,3,NEGATIVE,0.9293545484542847,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 3
+86,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+304,Laboratory Technician,Research & Development,No,4,NEGATIVE,0.9227607846260071,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+666,Sales Representative,Sales,Yes,3,NEGATIVE,0.8830001354217529,Job role: Sales Representative. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+577,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+332,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+302,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+63,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+925,Sales Representative,Sales,Yes,2,NEGATIVE,0.9135525822639465,Job role: Sales Representative. Department: Sales. OverTime: Yes. WorkLifeBalance: 2
+1293,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+852,Healthcare Representative,Research & Development,No,2,NEGATIVE,0.8554086089134216,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+483,Laboratory Technician,Research & Development,Yes,3,NEGATIVE,0.8242679834365845,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+2007,Research Scientist,Research & Development,No,4,NEGATIVE,0.6662928462028503,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1745,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1753,Healthcare Representative,Research & Development,Yes,4,POSITIVE,0.5311250686645508,Job role: Healthcare Representative. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 4
+1042,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+376,Manager,Research & Development,Yes,2,NEGATIVE,0.939179539680481,Job role: Manager. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1485,Research Director,Research & Development,No,2,NEGATIVE,0.8346408605575562,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+355,Laboratory Technician,Research & Development,No,4,NEGATIVE,0.9227607846260071,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+574,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1446,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+382,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+1560,Sales Executive,Sales,No,1,NEGATIVE,0.9802396893501282,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 1
+1578,Manager,Sales,No,3,NEGATIVE,0.9797062277793884,Job role: Manager. Department: Sales. OverTime: No. WorkLifeBalance: 3
+933,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+855,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1475,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+339,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1763,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1018,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+807,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+623,Manufacturing Director,Research & Development,No,4,NEGATIVE,0.9476815462112427,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1733,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+984,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1468,Research Director,Research & Development,No,3,NEGATIVE,0.8124909996986389,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1210,Research Scientist,Research & Development,No,1,NEGATIVE,0.7288950085639954,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+65,Laboratory Technician,Research & Development,Yes,2,NEGATIVE,0.8506674766540527,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1834,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+230,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1548,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1574,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1060,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+485,Sales Representative,Sales,Yes,3,NEGATIVE,0.8830001354217529,Job role: Sales Representative. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+361,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1318,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+819,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+723,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+1248,Research Scientist,Research & Development,Yes,4,POSITIVE,0.6375671029090881,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 4
+575,Research Director,Research & Development,No,1,NEGATIVE,0.8150392174720764,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+423,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+162,Research Director,Research & Development,No,3,NEGATIVE,0.8124909996986389,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1356,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1709,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1235,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+281,Laboratory Technician,Research & Development,Yes,4,NEGATIVE,0.785845160484314,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 4
+1970,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+757,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1633,Manufacturing Director,Research & Development,No,1,NEGATIVE,0.9549052715301514,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+1744,Human Resources,Human Resources,No,4,NEGATIVE,0.9103060960769653,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 4
+1079,Laboratory Technician,Research & Development,No,2,NEGATIVE,0.9357374906539917,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1459,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+815,Research Director,Research & Development,No,3,NEGATIVE,0.8124909996986389,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1033,Healthcare Representative,Research & Development,No,1,NEGATIVE,0.8342950344085693,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+261,Manufacturing Director,Research & Development,Yes,3,NEGATIVE,0.8152580857276917,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+458,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1885,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+395,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1550,Manager,Human Resources,Yes,3,NEGATIVE,0.6923471093177795,Job role: Manager. Department: Human Resources. OverTime: Yes. WorkLifeBalance: 3
+1908,Sales Executive,Sales,No,1,NEGATIVE,0.9802396893501282,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 1
+38,Manager,Sales,No,2,NEGATIVE,0.9792454242706299,Job role: Manager. Department: Sales. OverTime: No. WorkLifeBalance: 2
+656,Sales Executive,Sales,Yes,2,NEGATIVE,0.92974853515625,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 2
+100,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1260,Healthcare Representative,Research & Development,Yes,3,NEGATIVE,0.5318790674209595,Job role: Healthcare Representative. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+84,Manager,Research & Development,Yes,3,NEGATIVE,0.9225549101829529,Job role: Manager. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1615,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+808,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1237,Manufacturing Director,Research & Development,Yes,3,NEGATIVE,0.8152580857276917,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1321,Manager,Research & Development,Yes,3,NEGATIVE,0.9225549101829529,Job role: Manager. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1201,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+760,Human Resources,Human Resources,No,1,NEGATIVE,0.9193318486213684,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 1
+1938,Manager,Sales,Yes,2,NEGATIVE,0.9257017374038696,Job role: Manager. Department: Sales. OverTime: Yes. WorkLifeBalance: 2
+645,Sales Representative,Sales,No,3,NEGATIVE,0.9797963500022888,Job role: Sales Representative. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1165,Sales Executive,Sales,No,1,NEGATIVE,0.9802396893501282,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 1
+1471,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1678,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+665,Human Resources,Human Resources,No,4,NEGATIVE,0.9103060960769653,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 4
+865,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+57,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+77,Manufacturing Director,Research & Development,No,4,NEGATIVE,0.9476815462112427,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+30,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1975,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+508,Sales Representative,Sales,No,3,NEGATIVE,0.9797963500022888,Job role: Sales Representative. Department: Sales. OverTime: No. WorkLifeBalance: 3
+152,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+462,Manufacturing Director,Research & Development,Yes,2,NEGATIVE,0.8649754524230957,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1497,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+529,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1503,Sales Executive,Sales,Yes,2,NEGATIVE,0.92974853515625,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 2
+580,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+374,Manager,Research & Development,Yes,3,NEGATIVE,0.9225549101829529,Job role: Manager. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1121,Manufacturing Director,Research & Development,No,2,NEGATIVE,0.9586703181266785,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+840,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1364,Sales Representative,Sales,No,3,NEGATIVE,0.9797963500022888,Job role: Sales Representative. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1024,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1119,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+487,Manufacturing Director,Research & Development,No,4,NEGATIVE,0.9476815462112427,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1853,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+102,Research Director,Research & Development,No,4,NEGATIVE,0.7766961455345154,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+336,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1645,Sales Executive,Sales,Yes,2,NEGATIVE,0.92974853515625,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 2
+1611,Laboratory Technician,Research & Development,Yes,3,NEGATIVE,0.8242679834365845,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+947,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+1084,Manufacturing Director,Research & Development,No,2,NEGATIVE,0.9586703181266785,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+556,Laboratory Technician,Research & Development,Yes,3,NEGATIVE,0.8242679834365845,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+192,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+91,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+20,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1677,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1502,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1441,Research Scientist,Research & Development,No,4,NEGATIVE,0.6662928462028503,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1344,Healthcare Representative,Research & Development,No,2,NEGATIVE,0.8554086089134216,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1297,Laboratory Technician,Research & Development,No,2,NEGATIVE,0.9357374906539917,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1775,Manufacturing Director,Research & Development,Yes,2,NEGATIVE,0.8649754524230957,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+803,Manufacturing Director,Research & Development,Yes,3,NEGATIVE,0.8152580857276917,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+566,Human Resources,Human Resources,No,4,NEGATIVE,0.9103060960769653,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 4
+1240,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1127,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+721,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+416,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+1852,Laboratory Technician,Research & Development,No,4,NEGATIVE,0.9227607846260071,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1839,Research Scientist,Research & Development,No,1,NEGATIVE,0.7288950085639954,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+573,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1101,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1177,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1377,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+379,Research Scientist,Research & Development,No,4,NEGATIVE,0.6662928462028503,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+587,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+470,Human Resources,Human Resources,Yes,3,NEGATIVE,0.7817526459693909,Job role: Human Resources. Department: Human Resources. OverTime: Yes. WorkLifeBalance: 3
+1005,Manufacturing Director,Research & Development,Yes,3,NEGATIVE,0.8152580857276917,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1286,Laboratory Technician,Research & Development,Yes,2,NEGATIVE,0.8506674766540527,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+605,Manufacturing Director,Research & Development,Yes,2,NEGATIVE,0.8649754524230957,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1662,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+56,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1661,Healthcare Representative,Research & Development,Yes,3,NEGATIVE,0.5318790674209595,Job role: Healthcare Representative. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1764,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+450,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1279,Laboratory Technician,Research & Development,No,1,NEGATIVE,0.9342670440673828,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 1
+134,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+142,Sales Executive,Sales,Yes,3,NEGATIVE,0.9007619619369507,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+420,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+1457,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+241,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+331,Laboratory Technician,Research & Development,Yes,1,NEGATIVE,0.8466416001319885,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 1
+1390,Sales Executive,Sales,Yes,4,NEGATIVE,0.8882459402084351,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 4
+538,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1749,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+169,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1069,Research Director,Research & Development,No,3,NEGATIVE,0.8124909996986389,Job role: Research Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+471,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1573,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+621,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+1845,Sales Executive,Sales,No,4,NEGATIVE,0.978976845741272,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 4
+1674,Laboratory Technician,Research & Development,Yes,2,NEGATIVE,0.8506674766540527,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1696,Laboratory Technician,Research & Development,No,4,NEGATIVE,0.9227607846260071,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+833,Manufacturing Director,Research & Development,Yes,2,NEGATIVE,0.8649754524230957,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+41,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1871,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143038511276245,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+569,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+464,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+474,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1892,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+2003,Laboratory Technician,Research & Development,Yes,3,NEGATIVE,0.8242679834365845,Job role: Laboratory Technician. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1173,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+439,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1541,Sales Representative,Sales,Yes,3,NEGATIVE,0.8830001354217529,Job role: Sales Representative. Department: Sales. OverTime: Yes. WorkLifeBalance: 3
+1580,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+223,Healthcare Representative,Research & Development,Yes,1,NEGATIVE,0.5427459478378296,Job role: Healthcare Representative. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 1
+1815,Sales Executive,Sales,Yes,4,NEGATIVE,0.8882459402084351,Job role: Sales Executive. Department: Sales. OverTime: Yes. WorkLifeBalance: 4
+1646,Research Scientist,Research & Development,Yes,3,POSITIVE,0.5936482548713684,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+1373,Manufacturing Director,Research & Development,Yes,3,NEGATIVE,0.8152580857276917,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 3
+498,Sales Executive,Sales,No,3,NEGATIVE,0.9817982316017151,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 3
+319,Manager,Research & Development,No,3,NEGATIVE,0.9648706912994385,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1525,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+406,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+850,Research Scientist,Research & Development,No,2,NEGATIVE,0.747962474822998,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1641,Manufacturing Director,Research & Development,Yes,2,NEGATIVE,0.8649754524230957,Job role: Manufacturing Director. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+491,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1821,Healthcare Representative,Research & Development,No,4,NEGATIVE,0.8217514157295227,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1097,Research Scientist,Research & Development,No,4,NEGATIVE,0.6662928462028503,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 4
+1822,Healthcare Representative,Research & Development,No,3,NEGATIVE,0.8446725010871887,Job role: Healthcare Representative. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+81,Sales Executive,Sales,No,2,NEGATIVE,0.9816974997520447,Job role: Sales Executive. Department: Sales. OverTime: No. WorkLifeBalance: 2
+1419,Human Resources,Human Resources,No,2,NEGATIVE,0.9316986203193665,Job role: Human Resources. Department: Human Resources. OverTime: No. WorkLifeBalance: 2
+1998,Research Scientist,Research & Development,Yes,2,POSITIVE,0.5149418115615845,Job role: Research Scientist. Department: Research & Development. OverTime: Yes. WorkLifeBalance: 2
+1514,Manufacturing Director,Research & Development,No,2,NEGATIVE,0.9586703181266785,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1206,Research Scientist,Research & Development,No,3,NEGATIVE,0.7143037915229797,Job role: Research Scientist. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+1258,Laboratory Technician,Research & Development,No,2,NEGATIVE,0.9357374906539917,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+809,Manager,Research & Development,No,2,NEGATIVE,0.9666338562965393,Job role: Manager. Department: Research & Development. OverTime: No. WorkLifeBalance: 2
+1369,Laboratory Technician,Research & Development,No,3,NEGATIVE,0.9340250492095947,Job role: Laboratory Technician. Department: Research & Development. OverTime: No. WorkLifeBalance: 3
+271,Manufacturing Director,Research & Development,No,3,NEGATIVE,0.9555456042289734,Job role: Manufacturing Director. Department: Research & Development. OverTime: No. WorkLifeBalance: 3

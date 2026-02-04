@@ -1,0 +1,19 @@
+{
+  "session_id": "2026-02-02_14-45-43",
+  "saved_at": "2026-02-02T14:46:45",
+  "model_mode": "Local",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi 👋 Ask me a question about the HR dataset (attrition, departments, overtime)."
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t answer this from the HR dataset. Try asking about attrition, departments, overtime, job roles, etc."
+    }
+  ]
+}

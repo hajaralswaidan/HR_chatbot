@@ -1,74 +1,35 @@
-# src/llm/local_qwen.py
-from __future__ import annotations
-
-import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
 
-from src.config import (
-    LOCAL_MODEL_PATH,
-    LOCAL_MAX_NEW_TOKENS,
-    LOCAL_TEMPERATURE,
-    LOCAL_TOP_P,
-)
 
 class LocalQwen:
     """
-    Local Qwen runner (no external API).
-    Loads model/tokenizer once and generates answers.
+    Lightweight local model (CPU).
+    Default model is small Falcon 1B to avoid overloading the device.
     """
 
-    def __init__(self, model_path=LOCAL_MODEL_PATH):
-        self.model_path = str(model_path)
+    def __init__(self, model_name: str = "tiiuae/falcon-rw-1b"):
+        self.model_name = model_name
+        self.tokenizer = None
+        self.model = None
 
-        # Tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_path,
-            trust_remote_code=True,
-            local_files_only=True,
-        )
+    def load(self):
+        if self.model is not None:
+            return
 
-        # Device
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
-
-        # Recommended settings for limited RAM/VRAM
-        # (If you have GPU, it will use it automatically)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_path,
-            torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-            device_map="auto" if self.device == "cuda" else None,
-            trust_remote_code=True,
-            local_files_only=True,
+            self.model_name,
+            device_map="cpu",
+            torch_dtype=torch.float32,
         )
 
-        if self.device == "cpu":
-            self.model.to(self.device)
-
-        self.model.eval()
-
-    @torch.inference_mode()
-    def generate(self, prompt: str) -> str:
-        inputs = self.tokenizer(
-            prompt,
-            return_tensors="pt",
-            truncation=True,
-        )
-
-        inputs = {k: v.to(self.device) for k, v in inputs.items()}
-
-        output_ids = self.model.generate(
+    def generate(self, prompt: str, max_new_tokens: int = 256) -> str:
+        self.load()
+        inputs = self.tokenizer(prompt, return_tensors="pt")
+        outputs = self.model.generate(
             **inputs,
-            max_new_tokens=LOCAL_MAX_NEW_TOKENS,
-            temperature=LOCAL_TEMPERATURE,
-            top_p=LOCAL_TOP_P,
-            do_sample=True,
-            pad_token_id=self.tokenizer.eos_token_id,
+            max_new_tokens=max_new_tokens,
+            do_sample=False,
         )
-
-        text = self.tokenizer.decode(output_ids[0], skip_special_tokens=True)
-
-        # Return only assistant completion (best-effort)
-        # If prompt is included at start, remove it.
-        if text.startswith(prompt):
-            text = text[len(prompt):].strip()
-
-        return text.strip()
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)

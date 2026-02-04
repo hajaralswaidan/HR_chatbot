@@ -22,12 +22,15 @@ def init_db(force_rebuild: bool = False) -> None:
         conn.close()
 
 
-def get_conn():
+def get_conn() -> sqlite3.Connection:
     init_db()
     return sqlite3.connect(DB_PATH)
 
 
 def run_sql(sql: str) -> pd.DataFrame:
+    """
+    MUST return pandas.DataFrame only.
+    """
     conn = get_conn()
     try:
         return pd.read_sql_query(sql, conn)
