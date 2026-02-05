@@ -115,3 +115,83 @@ div[data-testid="stButton"] > button {
 div[data-testid="stChatInput"] textarea {
   border-radius: 14px !important;
 }
+
+/* ===== Sidebar text color ===== */
+section[data-testid="stSidebar"] {
+    color: #ffffff !important;
+}
+
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] h4,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: #ffffff !important;
+}
+
+/* Radio buttons (Local / Cloud) */
+section[data-testid="stSidebar"] div[role="radiogroup"] label {
+    color: #ffffff !important;
+}
+
+
+section[data-testid="stSidebar"] .stMarkdown {
+    color: #ffffff !important;
+}
+/* Chat input (Ask a question)  */
+div[data-testid="stChatInput"] textarea {
+    color: #ffffff !important;         
+    caret-color: #ffffff !important;    
+}
+/* Placeholder (Ask a question…) */
+div[data-testid="stChatInput"] textarea::placeholder {
+    color: #e0d7ff !important;          /* أبيض مائل للبنفسجي */
+    opacity: 1;
+}
+
+
+div[data-testid="stChatInput"] {
+    background-color: #5b1596 !important; /* بنفسجي أغمق شوي */
+    border-radius: 16px;
+}
+div[data-testid="stChatInput"] button svg {
+    fill: #ffffff !important;
+}
+
+.timeline-container {
+    border-left: 2px solid #7c3aed;
+    margin-left: 10px;
+    padding-left: 15px;
+    direction: ltr;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    background: #7c3aed;
+    border-radius: 50%;
+    position: absolute;
+    left: -24px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border: 2px solid white;
+}
+
+.timeline-title { 
+    font-weight: bold; 
+    font-size: 13px; 
+    color: white; 
+}
+
+.timeline-text { 
+    font-size: 11px; 
+    color: #d1d5db; 
+}

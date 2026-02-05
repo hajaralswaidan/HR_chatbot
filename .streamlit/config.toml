@@ -1,7 +1,7 @@
 [theme]
 base="light"
-primaryColor="#5b0d8e"                 # stc purple
-backgroundColor="#ffffff"              # white
-secondaryBackgroundColor="#F3E9FB"     # light purple
-textColor="#2B0A3D"                    # dark purple text
+primaryColor="#991fea"                 
+backgroundColor="#ffffff"              
+secondaryBackgroundColor="#490989"     
+textColor="#2B0A3D"                    
 font="sans serif"
