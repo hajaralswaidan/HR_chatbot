@@ -12,7 +12,6 @@ The goal of this project is to transform traditional, static HR data analysis in
 Users can ask questions in **plain English or Arabic**, and the chatbot dynamically generates accurate answers by querying the underlying HR dataset.
 
 This project demonstrates:
-
 - Integration of LLMs with structured data  
 - Practical use of Text-to-SQL  
 - Comparison between Cloud-based and Local AI models  
@@ -23,7 +22,7 @@ This project demonstrates:
 ## 📂 Dataset
 
 - **Dataset Name:** IBM HR Analytics Employee Attrition & Performance  
-- **File:** `WA_Fn-UseC_-HR-Employee-Attrition.csv`  
+- **File:** `WA_Fn-UseC_-HR-Employee-Attrition.csv`
 
 **Description:**
 - Employee demographic information  
@@ -45,7 +44,7 @@ The dataset is stored locally and queried dynamically using **SQLite**.
 
 **AI Models:**
 - **Cloud Model:** Groq API (High-speed inference)  
-- **Local Model:** Qwen 1.5B (Runs locally on CPU)  
+- **Local Model:** Qwen 1.5B (Runs locally on CPU)
 
 **Model Integration:**
 - Text-to-SQL  
@@ -55,10 +54,10 @@ The dataset is stored locally and queried dynamically using **SQLite**.
 
 ## 🧠 System Architecture
 
-1. The user submits a question through the chat interface.
-2. The selected LLM (Cloud or Local) converts the question into a SQL query.
-3. The generated SQL query is executed on the SQLite database.
-4. Query results are retrieved and formatted into a conversational response.
+1. The user submits a question through the chat interface.  
+2. The selected LLM (Cloud or Local) converts the question into a SQL query.  
+3. The generated SQL query is executed on the SQLite database.  
+4. Query results are retrieved and formatted into a conversational response.  
 5. Chat history is preserved within the session to support follow-up questions.
 
 ---
@@ -93,7 +92,7 @@ Users can switch between models directly from the sidebar.
 - *How many employees are there?*  
 - *Attrition rate by department*  
 - *Which department has the highest attrition?*  
-- *ما هو القسم الأعلى في نسبة الاستقالات؟*  
+- *ما هو القسم الأعلى في نسبة الاستقالات؟*
 
 ---
 
@@ -102,36 +101,44 @@ Users can switch between models directly from the sidebar.
 ```text
 HR_Analytics_Chatbot/
 │
-├── app.py                     # Main Streamlit application
-├── requirements.txt           # Project dependencies
-├── README.md                  # Project documentation
-├── styles.css                 # Custom UI styling
-├── logo.png                   # Application logo
+├── app.py
+├── requirements.txt
+├── README.md
+├── styles.css
+├── logo.png
 │
 ├── data/
 │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │
-├── screenshots/               # Application screenshots
+├── screenshots/
+│   ├── home-cloud.png
+│   ├── home-local.png
+│   ├── total_employees.png
+│   ├── core_qa_flow-cloud.png
+│   ├── cloud_model_results.png
+│   ├── cloud_advanced_analysis.png
+│   ├── local_result1.png
+│   └── local_result2.png
 │
 └── src/
     ├── llm/
-    │   ├── cloud_groq.py      # Cloud LLM integration
-    │   ├── local_qwen.py      # Local Qwen model
-    │   ├── sql_agent.py       # Text-to-SQL logic
-    │   └── prompt.py          # Prompt templates
+    │   ├── cloud_groq.py
+    │   ├── local_qwen.py
+    │   ├── sql_agent.py
+    │   └── prompt.py
     │
-    ├── data_loader.py         # Data loading utilities
-    └── config.py              # Configuration settings
+    ├── data_loader.py
+    └── config.py
 
 ---
 
 ## 📌 Professional Practices Followed
 
-- Small, meaningful Git commits  
-- Clean project structure  
-- Clear separation between Cloud and Local models  
-- README documentation with screenshots  
-- Reproducible environment via `requirements.txt`  
+- Small, meaningful Git commits
+- Clean project structure
+- Clear separation between Cloud and Local models
+- README documentation with screenshots
+- Reproducible environment via `requirements.txt`
 
 ---
 
@@ -167,6 +174,5 @@ HR_Analytics_Chatbot/
 ![Cloud Advanced Analysis](screenshots/cloud_advanced_analysis.png)
 
 ### Local Model – Analysis Results
-![Local Result 1](screenshots/local_result1.png)  
+![Local Result 1](screenshots/local_result1.png)
 ![Local Result 2](screenshots/local_result2.png)
-
