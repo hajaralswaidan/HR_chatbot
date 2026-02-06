@@ -125,22 +125,20 @@ HR_Analytics_Chatbot/
 
 ---
 
----
-
 ## 📌 Professional Practices Followed
 
-* Small, meaningful Git commits
-* Clean project structure
-* Clear separation between Cloud and Local models
-* README documentation with screenshots
-* Reproducible environment via `requirements.txt`
+- Small, meaningful Git commits  
+- Clean project structure  
+- Clear separation between Cloud and Local models  
+- README documentation with screenshots  
+- Reproducible environment via `requirements.txt`  
 
 ---
 
-##  Cloud vs Local Model Comparison
+## ☁️ Cloud vs Local Model Comparison
 
-| Aspect            | Cloud (Groq) | Local (Qwen 1.5B) |
-| ----------------- | ------------ | ----------------- |
+| Aspect             | Cloud (Groq) | Local (Qwen 1.5B) |
+|-------------------|--------------|-------------------|
 | Speed             | Very Fast    | Moderate          |
 | Internet Required | Yes          | No                |
 | Privacy           | Lower        | Higher            |
@@ -169,8 +167,6 @@ HR_Analytics_Chatbot/
 ![Cloud Advanced Analysis](screenshots/cloud_advanced_analysis.png)
 
 ### Local Model – Analysis Results
-![Local Result 1](screenshots/local_result1.png)
+![Local Result 1](screenshots/local_result1.png)  
 ![Local Result 2](screenshots/local_result2.png)
-
----
 
