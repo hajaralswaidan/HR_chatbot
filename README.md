@@ -1,56 +1,64 @@
+# HR Analytics Chatbot
 
-```
-# HR Analytics Chatbot 
-
-An intelligent HR Analytics Chatbot that allows users to explore and analyze HR data through natural language questions.  
-The chatbot supports both **cloud-based** and **local** Large Language Models (LLMs) and connects directly to structured HR data using a **Text-to-SQL** approach.
+An intelligent **HR Analytics Chatbot** that allows users to explore and analyze HR data through natural language questions.  
+The chatbot supports both **Cloud-based** and **Local** Large Language Models (LLMs) and connects directly to structured HR data using a **Text-to-SQL** approach.
 
 ---
 
 ## 🎯 Project Objective
 
-The goal of this project is to transform traditional, static HR data analysis into an **interactive conversational experience**.  
-Users can ask questions in **plain English or Arabic**, and the chatbot will generate accurate answers by querying the underlying HR dataset.
+The goal of this project is to transform traditional, static HR data analysis into an **interactive conversational experience**.
+
+Users can ask questions in **plain English or Arabic**, and the chatbot dynamically generates accurate answers by querying the underlying HR dataset.
 
 This project demonstrates:
-- Integration of LLMs with structured data
-- Practical use of Text-to-SQL
-- Comparison between Cloud-based and Local AI models
-- Professional AI application development standards
+
+- Integration of LLMs with structured data  
+- Practical use of Text-to-SQL  
+- Comparison between Cloud-based and Local AI models  
+- Professional AI application development standards  
 
 ---
 
 ## 📂 Dataset
 
 - **Dataset Name:** IBM HR Analytics Employee Attrition & Performance  
-- **File:** `WA_Fn-UseC_-HR-Employee-Attrition.csv`
-- **Description:**  
-  Contains employee demographic information, job roles, departments, attrition status, and performance-related attributes.
+- **File:** `WA_Fn-UseC_-HR-Employee-Attrition.csv`  
 
-The dataset is stored locally and queried dynamically via SQLite.
+**Description:**
+- Employee demographic information  
+- Job roles and departments  
+- Attrition status  
+- Performance-related attributes  
+
+The dataset is stored locally and queried dynamically using **SQLite**.
 
 ---
 
 ## 🛠️ Environment & Tools
 
-- **Environment Management:** Conda
-- **Programming Language:** Python
-- **Framework:** Streamlit
-- **Data Processing:** Pandas
-- **Database:** SQLite
-- **AI Models:**
-  - **Cloud Model:** Groq API (High-speed inference)
-  - **Local Model:** Qwen 1.5B (Running locally on CPU)
-- **Model Integration:** Text-to-SQL (No RAG in final flow)
+- **Environment Management:** Conda  
+- **Programming Language:** Python  
+- **Framework:** Streamlit  
+- **Data Processing:** Pandas  
+- **Database:** SQLite  
+
+**AI Models:**
+- **Cloud Model:** Groq API (High-speed inference)  
+- **Local Model:** Qwen 1.5B (Runs locally on CPU)  
+
+**Model Integration:**
+- Text-to-SQL  
+- No RAG in the final system flow  
 
 ---
 
 ## 🧠 System Architecture
 
-1. User submits a question through the chat interface.
+1. The user submits a question through the chat interface.
 2. The selected LLM (Cloud or Local) converts the question into a SQL query.
-3. The query is executed on the SQLite database.
-4. Results are returned and formatted as a conversational response.
+3. The generated SQL query is executed on the SQLite database.
+4. Query results are retrieved and formatted into a conversational response.
 5. Chat history is preserved within the session to support follow-up questions.
 
 ---
@@ -58,14 +66,16 @@ The dataset is stored locally and queried dynamically via SQLite.
 ## 🔁 Dual Model Support
 
 ### ☁️ Cloud-Based Model (Groq)
-- Faster response time
-- Ideal for complex or multi-step questions
-- Requires API configuration
+
+- Faster response time  
+- Suitable for complex and multi-step analytical questions  
+- Requires API key configuration  
 
 ### 💻 Local Model (Qwen 1.5B)
-- Runs fully offline
-- More privacy-friendly
-- Slightly slower but reliable for core analytics
+
+- Runs fully offline  
+- Privacy-friendly  
+- Slightly slower but reliable for core HR analytics  
 
 Users can switch between models directly from the sidebar.
 
@@ -73,76 +83,47 @@ Users can switch between models directly from the sidebar.
 
 ## 💬 Supported Question Types
 
-- Employee counts and summaries
-- Attrition rates by department
-- Comparison between departments
-- Follow-up analytical questions
-- Arabic and English queries
+- Employee counts and summaries  
+- Attrition rates by department  
+- Department comparisons  
+- Follow-up analytical questions  
+- Arabic and English queries  
 
-Example questions:
-- *How many employees are there?*
-- *Attrition rate by department*
-- *Which department has the highest attrition?*
-- *ما هو القسم الأعلى في نسبة الاستقالات؟
+**Example Questions:**
+- *How many employees are there?*  
+- *Attrition rate by department*  
+- *Which department has the highest attrition?*  
+- *ما هو القسم الأعلى في نسبة الاستقالات؟*  
 
 ---
 
 ## 🗂️ Project Structure
 
-```
-
+```text
 HR_Analytics_Chatbot/
-├─ app.py                 
-├─ requirements.txt       
-├─ README.md              
-├─ styles.css              
-├─ logo.png                
 │
-├─ data/
-│   └─ WA_Fn-UseC_-HR-Employee-Attrition.csv
+├── app.py                     # Main Streamlit application
+├── requirements.txt           # Project dependencies
+├── README.md                  # Project documentation
+├── styles.css                 # Custom UI styling
+├── logo.png                   # Application logo
 │
-├─ screenshots/            
+├── data/
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │
-└─ src/
-├─ llm/
-│  ├─ cloud_groq.py     
-│  ├─ local_qwen.py    
-│  ├─ sql_agent.py      # Text-to-SQL logic
-│  └─ prompt.py         
+├── screenshots/               # Application screenshots
 │
-├─ data_loader.py       # Data loading utilities
-└─ config.py            # Configuration settings
-
-````
+└── src/
+    ├── llm/
+    │   ├── cloud_groq.py      # Cloud LLM integration
+    │   ├── local_qwen.py      # Local Qwen model
+    │   ├── sql_agent.py       # Text-to-SQL logic
+    │   └── prompt.py          # Prompt templates
+    │
+    ├── data_loader.py         # Data loading utilities
+    └── config.py              # Configuration settings
 
 ---
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone <repository-url>
-cd HR_Analytics_Chatbot
-````
-
-### 2️⃣ Create Conda environment
-
-```bash
-conda create -n hr_chatbot python=3.10
-conda activate hr_chatbot
-```
-
-### 3️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the application
-
-```bash
-streamlit run app.py
-```
 
 ---
 
@@ -192,3 +173,4 @@ streamlit run app.py
 ![Local Result 2](screenshots/local_result2.png)
 
 ---
+
